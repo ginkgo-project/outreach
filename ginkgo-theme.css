@@ -1,0 +1,37 @@
+/*!
+ * @theme ginkgo
+ *
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ */
+
+@import 'gaia';
+
+:root {
+  font-size: 30px;
+  padding: 2rem;
+}
+
+section {
+  --color-foreground: #202228;
+  --color-background: #fdfcff;
+  --color-highlight: #009dd5;
+
+  color: var(--color-foreground);
+
+  background-color: var(--color-background);
+  background-image: url("./logo_light.svg");
+  background-repeat: no-repeat;
+  background-size: 2.2rem;
+  background-position: top 70px right 70px;
+}
+
+section code {
+  /* color from uncover theme*/
+  background: color-mix(in srgb, var(--color-background), var(--color-foreground) 90%);
+  color: var(--color-background);
+}
+
+section pre {
+  background: color-mix(in srgb, var(--color-background), var(--color-foreground) 90%);
+}
