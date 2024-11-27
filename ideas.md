@@ -4,3 +4,4 @@
 - smart pointers and ownership
 - cross executor behavior
 - passing data out of ginkgo
+- factories
